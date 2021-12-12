@@ -1,0 +1,47 @@
+.todo {
+    width: 700px;
+    height: 80px;
+    border: 1px solid #DDDDDD;
+    border-radius: 1px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo__left {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.todo__leftCircle {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #DDDDDD;
+    background-color: #F3F3F3;
+}
+
+.todo__left {
+    font-size: 14px;
+    color: #222222;
+}
+
+.todo__right {
+    padding-right: 30px;
+}
+
+.todo__bluetext {
+    color: #0052CC;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+
+.todo__graytext {
+    color: #42526E;
+    background-color: rgb(213, 216, 218);
+    padding: 7px 12px;
+}
+

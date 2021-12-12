@@ -1,0 +1,94 @@
+main {
+    background-color: #fff;
+
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 200px ;
+    margin: 500px 500px 0px 0px;
+    position: absolute;
+    width: 1127px;
+    height: 281px;
+    left: 157px;
+    top: 2149px;
+    border-radius: 0px;
+}
+
+#Direct {
+    position: absolute;
+    width: 885px;
+    height: 521px;
+    left: 272px;
+    top: 3275px;
+
+    /* Neutral/N10 */
+
+    background: #FAFBFC;
+    box-shadow: -28px 46px 60px rgba(9, 30, 66, 0.08);
+}
+
+#Finance {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 1128px;
+    height: 281px;
+    left: 157px;
+    top: 4000px;
+}
+
+#hello {
+    position: absolute;
+    width: 885px;
+    height: 506px;
+    left: 277px;
+    top: 4400px;
+
+    filter: drop-shadow(-28px 46px 60px rgba(9, 30, 66, 0.08));
+}
+
+#sponsors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 1112.75px;
+    height: 70px;
+    left: 153px;
+    top: 5300px;
+    }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 1112.75px;
+    height: 70px;
+    left: 153px;
+    top: 4338px;
+}
+
+.footerdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+
+    position: absolute;
+    width: 1128px;
+    height: 70px;
+    left: 156px;
+    top: 71px;
+}

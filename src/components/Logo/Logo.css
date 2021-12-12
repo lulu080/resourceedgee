@@ -1,0 +1,21 @@
+.logo {
+    width: '150px';
+    height: '150px';
+    background-color: #0052CC;
+    position: relative;
+}
+
+.logo__letter {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 10px;
+}
+
+.logo__letter1 {
+    left: 10px;
+}
+
+.logo__letter2 {
+    left: 25px;
+}

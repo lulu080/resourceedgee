@@ -1,0 +1,45 @@
+.input {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input > label {
+    font-size: 15px;
+    color: #091E42;
+    font-weight: bold;
+}
+
+.input > input {
+    height: 30px;
+    padding-left: 10px;
+    margin: 10px 0px 20px 0px;
+    border: 1px solid #DFE1E6;
+    border-radius: 3px;
+}
+
+.input > input:focus {
+    outline: none;
+    border: 1px solid rgb(38, 105, 230);
+}
+
+.input__error {
+    border: 1px solid red;
+}
+
+.input__errorMsg {
+    margin-top: -20px;
+    margin-bottom: 5px;
+    color: red;
+    font-size: 12px;
+}
+
+.input > img {
+    height: 15px;
+    width: 18px;
+    position: absolute;
+    top: 38px;
+    right: 10px;
+    cursor: pointer;
+}

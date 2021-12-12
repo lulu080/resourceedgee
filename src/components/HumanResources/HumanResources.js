@@ -9,20 +9,34 @@ const HumanResources = () => {
                 Onboard new employees, manage the employee lifecycle and measure employee performance.
                 </p>
             </section>
-           <section className="hraside">
-                <aside></aside>
-                <aside></aside>
-                <aside></aside>
-            </section>
+           <img src="/images/frame.png" className="hraside"/>
             <section className="hrbody">
                  <div id="container">
                     <nav>
-                        
+                        <div id="content">
+                        <img src="/images/notification.png" id="no1"/>
+                        <img src="/images/right-content.png" id = "no2"/>
+                        <aside className="leftcontent">
+                            <p>Employee Directory</p>
+                            <img src="/images/Group.png" id="group"/>
+                            <img src="/images/menu.png" id="menu"/>
+                        </aside>
+                        </div>
                     </nav>
-                 </div>
-                 <div id="personcard">
+                    <aside className="employee">
+                                <div id="divcontent1">
 
+                                </div>
+                                  <div id="divcontent2">
+                                      <p>Employees</p>
+                                  </div>
+                        </aside>
+                        <div id="search">
+                            <img src="/images/Search.png"/>
+                        </div>
+                   <img src="/images/picture1.png" id="picture1"/>
                  </div>
+                 <img src = "/images/personcard.png" id="personcard"/>
             </section>
         </div>
     )
