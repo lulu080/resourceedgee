@@ -11,7 +11,8 @@ const AdminLogistics = () => {
             <img src="/images/sponsors.png" id="sponsors"/>
             <footer>
                 <div className="footerdiv">
-
+                <img src="/images/footer-left.png" id="footer-left"/>
+                <img src="/images/footer-right.png" id="footer-right"/>
                 </div>
             </footer>
         </main>

@@ -9,17 +9,17 @@ const HumanResources = () => {
                 Onboard new employees, manage the employee lifecycle and measure employee performance.
                 </p>
             </section>
-           <img src="/images/frame.png" className="hraside"/>
+           <img src="/images/frame.png" className="hraside" alt=""/>
             <section className="hrbody">
                  <div id="container">
                     <nav>
                         <div id="content">
-                        <img src="/images/notification.png" id="no1"/>
-                        <img src="/images/right-content.png" id = "no2"/>
+                        <img src="/images/notification.png" id="no1" alt=""/>
+                        <img src="/images/right-content.png" id = "no2" alt=""/>
                         <aside className="leftcontent">
                             <p>Employee Directory</p>
-                            <img src="/images/Group.png" id="group"/>
-                            <img src="/images/menu.png" id="menu"/>
+                            <img src="/images/Group.png" id="group" alt=""/>
+                            <img src="/images/menu.png" id="menu" alt=""/>
                         </aside>
                         </div>
                     </nav>
@@ -34,9 +34,9 @@ const HumanResources = () => {
                         <div id="search">
                             <img src="/images/Search.png"/>
                         </div>
-                   <img src="/images/picture1.png" id="picture1"/>
+                   <img src="/images/picture1.png" id="picture1" alt=""/>
                  </div>
-                 <img src = "/images/personcard.png" id="personcard"/>
+                 <img src = "/images/personcard.png" id="personcard" alt=""/>
             </section>
         </div>
     )
