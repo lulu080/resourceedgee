@@ -50,3 +50,52 @@
     border-radius: 0px;
     background: #DADADA;
 }
+
+@media only screen (min-device-width : 460px) and (max-device-width : 800px) {
+.TopSection h1 {
+    position: static;
+    width: 301px;
+    height: 114px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+
+    color: #091E42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+    }
+
+.TopSection p {
+    position: static;
+    width: 245px;
+    height: 61px;
+    left: 0px;
+    top: 138px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+    }
+
+.TopSection img {
+    position: absolute;
+    left: 100%;
+    right: -100%;
+    top: 7.31%;
+    bottom: 85.85%;
+    background: #FFFFFF;
+    }
+}
